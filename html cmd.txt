@@ -1,0 +1,75 @@
+<button> text  </button> text with layers 
+<p> text </p> blank text
+<a>  https://github.com/fedei10/web-development/blob/main/README.md </a> link without destination
+
+
+<a   href="https://github.com/"  >  https://github.com/fedei10/web-development/blob/main/README.md </a>  link with destination 
+
+
+
+
+<a  href="https://github.com/"  target="_blank">link to github </a>  ( with target = new tab =)   
+
+extra spaces are ignored in html 
+extra new lines are ignore in html 
+pressing tab means = 4spaces default*
+
+
+----------------------------------------------------------------------------
+CSS
+<style >
+button {
+background-color : red    ( dakhleni eli fi west case  )
+color   red ; (loun kelma  ) 
+border:none ; tna7i border eli dayer beha      
+height : pos fi toul toul border b toul 
+width : pos fi 3ordh toul border b 3ordh 
+border-radius: 30px; twali doura
+cursor:pointer;
+}
+
+</style>
+turn button into red 
+
+
+
+<button class="fedi-button" >  fedi bellakhel  </button>
+
+
+---------------------------------------------
+<style> 
+.fedi-button {
+background-color: red;
+border : none ; 
+height: 60px;
+width: 60px;
+border-radius: 90px;
+cursor:pointer;
+}
+
+
+
+</style>
+<button  >kahla</button>
+------------------------------------------------------------
+
+margin-right:9px;  ( espace binet buttons ) 
+
+------------------------------------------------
+kbor font mta kelma
+font-weight: normal;
+font-weight: bold;
+font-weight: bolder;
+font-weight: lighter;
+font-weight: 100;
+font-weight: 900;
+-------------------------------------------------
+border-width: 1px ;
+            border-style: solid; 
+3ordh eli dayer b kelma el ( width ) 
+-------------------------------------------------
+
+
+
+
+
