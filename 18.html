@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Panier details</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+
+  <div class="container">
+
+  <div class="navbar">
+    <div class="logo">
+      <img src="C:\Users\pc\Desktop\devwebofficiel\images\fohpng.png" width="200px">
+
+    </div>
+  <nav>
+    <ul id="menuItems">
+      <li><a href="../devwebofficiel/index.html">Home</a></li>
+      <li><a href="../devwebofficiel/product.html">Product</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="../devwebofficiel/contact.html">Account</a></li>
+    </ul>
+  </nav>
+<a href="../devwebofficiel/panier.html"><img src="C:\Users\pc\Desktop\devwebofficiel\images\panier.png" width="30px" height="30px"></a>
+
+<img src="C:\Users\pc\Desktop\devwebofficiel\images\menu.png" class="menu-icon" onclick="menutoggle()">
+  </div>
+
+</div>
+
+<!--- Panier----->
+<div class="small-container page-panier">
+  <table>
+    <tr>
+      <th>Product</th>
+      <th>Quantity</th>
+      <th>Subtotal</th>
+    </tr>
+    <tr>
+      <td>
+<div class="panier-info">
+
+<img src="C:\Users\pc\Desktop\devwebofficiel\images\buy-1.jpg">
+<div>
+  <p>Red printed T-Shirt</p>
+  <small>45DT</small>
+  <br>
+  <a href="">Remove</a>
+
+
+</div>
+</div>
+
+
+      </td>
+        <td><input type="number"  value="1"></td>
+        <td>45 DT</td>
+
+    </tr>
+    <tr>
+      <td>
+<div class="panier-info">
+
+<img src="C:\Users\pc\Desktop\devwebofficiel\images\buy-2.jpg">
+<div>
+  <p>Red printed T-Shirt</p>
+  <small>199 DT</small>
+  <br>
+  <a href="">Remove</a>
+
+
+</div>
+</div>
+
+
+      </td>
+        <td><input type="number"  value="1"></td>
+        <td>130 DT</td>
+
+    </tr>
+    <tr>
+      <td>
+<div class="panier-info">
+
+<img src="C:\Users\pc\Desktop\devwebofficiel\images\buy-3.jpg">
+<div>
+  <p>Red printed T-Shirt</p>
+  <small>45DT</small>
+  <br>
+  <a href="">Remove</a>
+
+
+</div>
+</div>
+
+
+      </td>
+        <td><input type="number"  value="1"></td>
+        <td>45 DT</td>
+
+    </tr>
+  </table>
+
+<div class="Total-Price">
+  <table>
+    <tr>
+      <td>Subtotal</td>
+      <td>200 DT</td>
+    </tr>
+    <tr>
+      <td>TVA</td>
+      <td>20 DT</td>
+    </tr>
+    <tr>
+      <td>Total</td>
+      <td>200 DT</td>
+    </tr>
+  </table>
+
+</div>
+
+
+
+</div>
+
+
+<!--- footer----->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download our App</h3>
+        <p>Download App for Android and Ios mobile phone.</p>
+        <div class="app-logo">
+          <img src="C:\Users\pc\Desktop\devwebofficiel\images\play-store.png">
+          <img src="C:\Users\pc\Desktop\devwebofficiel\images\app-store.png">
+        </div>
+    </div>
+    <div class="footer-col-2">
+      <img src="C:\Users\pc\Desktop\devwebofficiel\images\fohtanspa.png" width="200px">
+      <p>Our purpose is to sustainably
+         Make the pleasure <br> and benefits of sports <br>
+          accesible to the many.</p>
+  </div>
+  <div class="footer-col-3">
+    <h3>Useful Links</h3>
+    <ul>
+      <li>Coupons</li
+        <li>Blog Post</li>
+        <li>Return Policy</li>
+        <li>Join Affiliate</li>
+
+    </ul>
+</div>
+<div class="footer-col-4">
+  <h3>Follow us</h3>
+  <ul>
+    <li>Facebook</li
+      <li>Twitter</li>
+      <li>Instagram</li>
+      <li>Youtube</li>
+
+  </ul>
+</div>
+
+      </div>
+<hr>
+<p class="Copyright"class>Copyright 2021 F.O.H</p>
+    </div>
+
+  </div>
+
+
+  <!--- java script for menu----->
+
+<script>
+var menuItems = document.getElementById("menuItems");
+
+menuItems.style.maxHeight = "0px";
+function menutoggle(){
+if(menuItems.style.maxHeight == "0px")
+{
+  menuItems.style.maxHeight = "200px";
+}
+else
+{
+  menuItems.style.maxHeight = "0px";
+
+}
+}
+
+</script>
+
+</body>
+</html>
